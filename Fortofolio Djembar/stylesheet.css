@@ -1,0 +1,186 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div, footer {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+  background-color: #f5f6fa;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Comic;
+    src: url(/fonts/ComicNeue-Regular.ttf)
+}
+
+@font-face {
+    font-family: Yatra;
+    src: url(/fonts/YatraOne-Regular.ttf)
+}
+
+.header-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+  }
+  
+  .header {
+    background-color: #34495e;
+    color: #bdc3c7;
+    height: 110px;
+  }
+  
+  .header-logo {
+    float: left;
+    padding: 10px 40px;
+  }
+  
+  .header-list {
+    float: right;
+    color: #ecf0f1;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.6);
+  }
+  
+  .header-list a:visited {
+    color: #ecf0f1;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.6);
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 45px 20px;
+    font-family: Comic;
+    opacity: 1;
+    color: #ecf0f1;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.6);
+  }
+  
+  .header-list li a:hover {
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.6);
+  }
+  
+.header-image { 
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    background-image: url(/images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+    background-color: #95a5a6;
+    border-bottom: 2px solid #2c3e50;
+}
+
+.header-image .container .center h2 {
+    color: #ecf0f1;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.6);
+    font-size: 50px;
+    font-family: Yatra; 
+    padding-top: 150px; 
+}
+  
+.header-image .container .center p {
+    color: #ecf0f1;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.6);
+    font-size: 30px;
+    font-family: Comic; 
+}
+  
+.member-wrapper {
+    height: 500px;
+}
+
+.container-menu h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Comic;
+}
+
+.container-menu img {
+    padding: 50px;
+    height: 200px;
+    border-radius: 70px;
+    float: left;
+}
+
+
+.container-menu p {
+  float: right;
+  padding-right: 500px;
+  padding-top: 60px;
+  font-size: 16px;
+  font-family: Comic;
+}
+
+.container-menu p1 {
+  font-size: 30px;
+  font-family: Comic;
+}
+
+.contact {
+  margin: 20px;
+  float: left;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+footer {
+  height: 50px;
+  background-color: #34495e;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.logo-footer {
+  font-family: Yatra;
+  font-size: 30px;
+  padding-left: 20px;
+  float: left;
+  color: #ecf0f1;
+}
+
+.footer-p {
+  font-family: Comic;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 0px;
+  float: right;
+  color: #ecf0f1;
+}
